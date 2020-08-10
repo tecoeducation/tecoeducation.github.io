@@ -1,0 +1,6 @@
+1. Making the resut screen more useful
+	a. Add the animals
+	b. Explain the student type
+3. Return button
+4. Pictures (dimensions)
+5. Edit questions

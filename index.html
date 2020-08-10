@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="loader.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+    </script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+    </style>
+  </head>
+
+  <body>
+    <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <script type="text/javascript" src="loader.js"></script>
+
+    <p id="titleQuestion">
+      What Type of Student are You?
+    </p>
+
+    <img src="OttyFront.png" id="image" />
+
+    <p id="description">
+      Take this quiz and figure out your study buddy too!
+    </p>
+
+
+    <div id="btn-group">
+      <button id="kr" onclick="checkIfMobileOrSendToQuestionsPage(true)" type="button">
+        한국어로 시작하기
+      </button>
+      <button id="en" onclick="checkIfMobileOrSendToQuestionsPage(false)" type="button">
+        Get Started in English
+    </div>
+
+    <div id = "solid-back"></div>
+
+
+  </body>
+  <script type="text/javascript" src="index.js"></script>
+
+</html>

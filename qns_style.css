@@ -1,0 +1,115 @@
+body{
+  margin: 0;
+  font-family: 'Montserrat';
+  background-color: white;
+  font-size: 15px;
+}
+
+header{
+  width: 100%;
+  text-align: center;
+  top: 0%;
+  height: 50px;
+  padding-bottom: 3px;
+}
+
+.loader-wrapper{
+  z-index: 1;
+}
+
+#teco_logo{
+  margin-top: 25px;
+  width: 20%;
+}
+
+#Question{
+  position: absolute;
+  top: 20%;
+  left: 6.8%;
+  width: 86.4%;
+  height: auto;
+  text-align: center;
+  background: #FADB71;
+  box-shadow: 4px 4px 0px #616A6B;
+  box-sizing: border-box;
+  border-radius: 16px;
+  box-shadow: 4px 4px 0px #476A71;
+}
+
+#question{
+  margin-left: 5%;
+  margin-right: 5%;
+  font-weight: bold;
+}
+
+.processBarContainer {
+  position: absolute;
+  top: 15%;
+  background-color: white;
+  width: 90%;
+  height: 2%;
+  margin-left: 5%;
+  border: solid #18191F 1.5px;
+  border-radius: 20px;
+}
+
+.processBar {
+  background-color: #FADB71;
+  width: 0%;
+  height: 97%;
+  border-radius: 20px;
+}
+
+#btn-group{
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-family: 'Montserrat';
+}
+
+button{
+  font-weight: bold;
+  border-style: hidden;
+  width: 86.4%;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  box-shadow: 4px 4px 0px #616A6B;
+}
+
+[id = "1"]{
+  background-color: #FFFFFF;
+  font-family: 'Montserrat';
+}
+
+[id = "2"]{
+  background-color: #FFFFFF;
+  font-family: 'Montserrat';
+}
+
+[id = "3"]{
+  background-color: #FFFFFF;
+  font-family: 'Montserrat';
+}
+
+[id = "4"]{
+  background-color: #FFFFFF;
+  font-family: 'Montserrat';
+}
+
+#solid-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  top: 0%;
+  background: #C7DCE9;
+  z-index: -1;
+}
