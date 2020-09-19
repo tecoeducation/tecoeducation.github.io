@@ -114,14 +114,8 @@ fetch('TECO - Sheet1.csv').then(response => response.text()).then(text => {
     document.getElementById('resultsImage').src = "resultsImage/"+imageName+".png"
     if (language == "en"){
       document.getElementById('shareDescription').href = "insta/"+imageName+".png"
-      if (iOS()){
-        alert ("If you are on an iPhone/iPad, please screenshot the result page and refrain from pressing the 'Download Shareable Image' button. We apologize for the inconvenience caused.")
-      }
     } else {
       document.getElementById('shareDescription').href = "insta/"+imageName+"kr.png"
-      if (iOS()){
-        alert ("만약 아이폰이나 아이패드로 퀴즈를 사용하시고 계신다면, '내 학생 유형 공유하기' 버튼을 누르지 말아주세요. 현재 버그로 오류가 발생하고 있습니다.")
-      }
     }
 
     var sbName = csvData[rowNumber][5].replace(' ', '')
