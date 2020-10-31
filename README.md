@@ -2,10 +2,10 @@
 
 This is a test website for Teco Education's "Find My Student Type" Application. 
 
-You can check the website at: https://youngil-1013.github.io/
+You can check the website at: https://www.tecoeducation.org/quiz
 
 Note:
-It takes a few minutes (usually 5 to 10) for the .io website to reload. If something doesn't seem to work, check for alerts at Setting->(Scroll to)Github Pages Section. If nothing is wrong, the section head should read " Your site is published at https://youngil-1013.github.io/". If not, it should guide you to the error page.
+It takes a few minutes (usually 5 to 10) for the .io website to reload. If something doesn't seem to work, check for alerts at Setting->(Scroll to)Github Pages Section. If nothing is wrong, the section head should read " Your site is published at https://www.tecoeducation.org/quiz". If not, it should guide you to the error page.
 
 For testing the HTML, CSS and JS together, I recommend JSFiddle at: https://jsfiddle.net/. Simply copy paste the code into corresponding section.
 
